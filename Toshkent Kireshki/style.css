@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background: url("images/header_bg 1.png") no-repeat center center /cover;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+}
+
+header p{
+    font-weight: 400;
+    font-size: 56px;
+    color: blue;
+    margin-left: 200px;
+}
+header h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: black;
+    margin-left: 200px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    /*margin: 50px 0px;*/
+}
+section .left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+section .left .box{
+    display: flex;
+    width: 516px;
+    height: 255px;
+    margin-bottom: 20px;
+    /*flex-direction: column;*/
+}
+section .left1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+section .left1 .box{
+    display: flex;
+    width: 516px;
+    height: 255px;
+    margin-bottom: 20px;
+    /*margin-top: 30px;*/
+    /*flex-direction: column;*/
+}
+
+.text{
+    margin: 0px 30px;
+}
+
+/*section .left1{*/
+/*   margin-top: 30px;*/
+
+/*}*/
+
+section h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1F3750;
+    margin-bottom: 10px;
+}
+
+section p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #70869D;
+    margin-bottom: 10px;
+}
+
+section button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #70869D;
+    padding: 10px 50px;
+    background: rgba(196, 196
+    196, 0.5);
+    border: none;
+}
+
+section button:hover{
+    background: blue;
+    color: white;
+}
+
+
+
+
+
+
+main .menu{
+    width: 900px;
+    margin: auto;
+    height: 520px;
+    display: flex;
+    background-color: #F3F9FF;
+    justify-content: space-around;
+}
+
+main .menu .blok{
+    width: 202px;
+    margin: 50px 0px 41px;
+}
+main .menu .blok h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F3750;
+    margin-bottom: 20px;
+}
+main .menu .blok p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #70869D;
+    margin-bottom: 20px;
+}
+.main1{
+    width: 900px;
+    height: 250px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    /*display: flex;*/
+}
+
+.main1 h4{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 100%;
+
+
+}
+.main1 .menu1{
+    display: flex;
+    /*justify-content: center;*/
+}
+.main1 .menu1 .boxs1{
+    width: 475px;
+    height: 210px;
+    /*border: 1px solid black;*/
+    margin-left: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    line-height: 128%;
+}
+.main1 .menu1 .boxs1 a{
+    text-decoration: none;
+}
+
+.main1 .menu1 .boxs1 a:hover{
+
+    color: #63a9a8;
+}
+
+.main1 .menu1 .boxs2 a:hover{
+
+    color: #63a9a8;
+}
+
+.main1 .menu1 .boxs2 a{
+    text-decoration: none;
+}
+
+
+.main1 .menu1 .boxs2{
+    width: 475px;
+    height: 210px;
+    /*border: 1px solid black;*/
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    line-height: 128%;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F9FF;
+}
+footer .katak1{
+    width: 300px;
+    height: 30px;
+    /*border: 1px solid blue;*/
+    /*margin: auto;*/
+}
+
+footer .katak2{
+    width: 600px;
+    height: 30px;
+    /*border: 1px solid blue;*/
+    /*display: flex;*/
+    /*margin: auto;*/
+}
+
+.katak2 nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: Regular;
+    line-height: 30px;
+    line-height: 183%;
+    color: #000000;
+}
+footer .katak1 h3{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 23px;
+    line-height: 100%;
+    color: #1F3750;
+}
+
